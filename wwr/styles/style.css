@@ -94,8 +94,9 @@ footer a {
 footer p a:hover {
     text-decoration: underline;
 }
-footer.social img{
+.social img{
     padding-top: 15px;
+    width: 80px;
 }
 .logo {
     width: 80px;
