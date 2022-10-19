@@ -72,7 +72,7 @@ main section {
 }
 .msg h2 {
     color: #E03C31;
-    font-family: 'Bangers' Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bangers';
     margin: 0;
 }
 .msg p {
