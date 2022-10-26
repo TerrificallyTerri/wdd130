@@ -1,0 +1,9 @@
+1. the personal site must consist of a home page and at least two child pages
+2. the website must be hosted on the website
+3. each page of your Web Site must satisfy the following requirements:
+    3.1.    Significant textual context consisting of appropriate content for your 
+            audience so that they can understand the meaning and message of this site
+    3.2.    At least one image that relates to the content of the page.
+    3.3.    Working links to your two child pages
+    3.4.    Be laid out and styled according to your site plan wireframes
+    3.5.    Be visually appealing and easily readable

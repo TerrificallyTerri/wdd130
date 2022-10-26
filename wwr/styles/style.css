@@ -129,7 +129,7 @@ main section img {
     box-sizing: border-box;
 }
 .msg {
-    background-color: #F6C5C1;
+    background-color: #adaaa9;
     line-height: 1.5em;
     padding-bottom: 20px;
     grid-area: 6/6/7/10;
