@@ -44,8 +44,8 @@ nav a:hover {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px;
 /*These I have added myself*/
-    grid-template-rows: repeat(2, 1fr);
-    align-items: center;
+    /*grid-template-rows: repeat(2, 1fr);*/
+    /*align-items: center;*/
 }
 #hero-box {
     grid-column: 1 / 4;
@@ -152,7 +152,7 @@ footer {
     color: #F6C5C1;
     /*font-size: 1.2em;*/
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 75px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -175,6 +175,111 @@ footer p a:hover {
     width: 80px;
     padding-top: 10px;
 }
+
+/*Page 2 - CSS*/
+
+#river-img{
+    width: 100%;
+    border-radius:20px;
+}
+
+.accordion {
+  position: relative;
+  margin: 30px auto;
+  width: 90%;
+}
+
+[id*="open-accordion"], [id*="close-accordion"] {
+  background: #7A9A01;
+  border-style: outset;
+  border-color: #4b5f02;
+  box-sizing: border-box;
+  line-height: 60px;
+  display: block;
+  position: relative;
+}
+
+[id*="close-accordion"] {
+  display: none;
+}
+
+.accordion a {
+  color: #E03C31;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+[id*="open-accordion"]:after, [id*="close-accordion"]:after {
+  content: "";
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #E03C31;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  z-index: 999;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.target-fix {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.accordion-content {
+  background: #fff;
+  color: #7A9A01;
+  height: 0;
+  margin: -10px auto 0;
+  position: relative;
+  overflow: hidden;
+  width: 95%;
+  transition: all 0.1s ease;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+}
+
+.accordion span:target ~ .accordion-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  padding:30px;
+  height: auto;
+}
+.accordion-text{
+  font-size: 1em;
+  display: block;
+  margin: auto;
+  text-align:justify;
+  padding-left: 0.9em;   
+}
+.accordion-image{
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+
+.accordion span:target ~ [id*="close-accordion"] {
+  display: block;
+}
+
+.accordion span:target ~ [id*="open-accordion"] {
+  display: none;
+}
+
+.accordion span:target ~ [id*="close-accordion"]:after {
+  border-top: 10px solid #333;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+
 
 /* Don't make any changes from here*/
 @media screen and (max-width: 900px) {
