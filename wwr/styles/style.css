@@ -186,7 +186,7 @@ footer p a:hover {
 .accordion {
   position: relative;
   margin: 30px auto;
-  width: 90%;
+  width: 80%;
 }
 
 [id*="open-accordion"], [id*="close-accordion"] {
@@ -235,10 +235,10 @@ footer p a:hover {
   background: #fff;
   color: #7A9A01;
   height: 0;
-  margin: -10px auto 0;
+  margin: -5px auto 0;
   position: relative;
   overflow: hidden;
-  width: 95%;
+  width: 90%;
   transition: all 0.1s ease;
   -webkit-transition: all 0.1s ease;
   -moz-transition: all 0.1s ease;
