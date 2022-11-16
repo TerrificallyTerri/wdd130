@@ -1,0 +1,41 @@
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 30px;
+    text-align: center;
+    background-color: #575151;
+}
+h1{
+    color: #FD8062;
+    margin-top: -100px;
+}
+h1:hover {
+    font-size: 62px;
+    color: #E7B4B3
+}
+nav {
+    background-color: #3F3B3A;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 3(1fr);
+}
+nav a {
+    padding: 0.5em;
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 800;
+    text-decoration: none;
+    color:#430d27
+}
+nav a:link, nav a:visited {
+    color: #E7B4B3;
+}
+nav a:hover {
+color: #FD8062;
+background-color: #430d27;
+border-radius: 50px;
+}
+p{
+    color:#FD8062
+}

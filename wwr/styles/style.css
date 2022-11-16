@@ -37,7 +37,8 @@ nav a{
     padding: 35px;
 }
 nav a:hover {
-    background-color: #E03C31;
+    background-color: #4e1611;
+    border-radius: 20px;
 }
 #hero {
     display: grid;
@@ -62,7 +63,7 @@ nav a:hover {
 }
 #hero-msg h1 {
     text-align: center;
-    color:#E03C31;
+    color:#4e1611;
 }
 #hero-msg h4 {
     text-align: center;
@@ -72,7 +73,7 @@ nav a:hover {
     text-align: center;
 }
 .book, .join {
-    background-color: #F6C5C1;
+    background-color: #4e1611;
     color: #7A9A01;
     text-decoration: none;
     font-size: 18px;
@@ -81,7 +82,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .book:hover, .join:hover {
-    background-color: #E03C31;
+    background-color: #4e1611;
     font-size: 18px;
 }
 .home-grid {
@@ -138,12 +139,12 @@ main section img {
     box-shadow: 5px 5px 10px #1d2500;
 }
 .msg h2 {
-    color: #E03C31;
+    color: #4e1611;
     font-family: 'Bangers', Verdana, Tahoma, sans-serif;
     margin: 1em;
 }
 .msg p {
-    color: #E03C31;
+    color: #4e1611;
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -205,7 +206,7 @@ footer p a:hover {
 }
 
 .accordion a {
-  color: #E03C31;
+  color: #4e1611;
   font-size: 1.2em;
   font-weight: bold;
   text-align: center;
@@ -216,7 +217,7 @@ footer p a:hover {
   content: "";
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #E03C31;
+  border-top: 10px solid #4e1611;
   position: absolute;
   right: 25px;
   top: 25px;
