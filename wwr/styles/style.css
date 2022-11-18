@@ -360,6 +360,9 @@ color:#7A9A01;
     /* Make this element invisible until it is time to use it */
     display: none
 }
+.moveDown {
+    margin-top: 3em;
+}
 
 /* Don't make any changes from here*/
 @media screen and (max-width: 900px) {
