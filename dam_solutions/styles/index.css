@@ -71,14 +71,14 @@ header {
 .header :nth-of-type(2) {
     grid-area: 3/2/4/3;
     text-decoration: none;
-    font-size: 1.75em;
+    font-size: 2em;
     padding: 5px;
     color: var(--nav-link-color);
 }
 .header :nth-of-type(3) {
     grid-area: 3/4/4/5;
     text-decoration: none;
-    font-size: 1.75em;
+    font-size: 2em;
     padding: 5px;
     color: var(--nav-link-color);
 
