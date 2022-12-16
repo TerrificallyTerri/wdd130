@@ -42,11 +42,11 @@ body {
 }
 /* card on which the image rests */
 .logo {
-    width: 30%;
-    margin: auto;
+    width: 20%;
+    margin: -25px auto auto auto;
 }
 .logo img{
-    width: 450px;
+    width: 300px;
     box-sizing: border-box;
 }
 /* Style the navbar */
@@ -62,9 +62,9 @@ body {
     display: block;
     color: var(--nav-link-color);
     text-align: center;
-    padding: 25px 200px;
+    padding: 14px 200px;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 18px;
   }
   /* Navigation pseudo class */
   #navbar :hover{
@@ -98,8 +98,8 @@ h3 {
 }
 
 h1 {
-    padding: 30px;
-    font-size: 3em;
+    padding: 20px;
+    font-size: 2em;
 }
 p {
     font-family: var(--paragraph-font);
