@@ -18,15 +18,14 @@
                     <a href="https://instagram.com" target="_blank"> <img src="images/instagram.png" alt="instagram icon"></a>
                     <a href='https://www.linkedin.com' target='_blank'> <img src='images/linkedin.png' alt='linkedin iccon'></a>
                 </div>
-                <div class='header'>
-                    <a id='logo_link' href='index.html'>
-                        <img class='logo' src='images/big-logo.jpg' alt='Dam Solutions Logo'>
-                    </a>
-                    <nav>
-                        <a href='index.html'>Home</a>
-                        <a href='quagmires.html'>Quagmires</a>
-                        <a href='solutions.html'>Solutions</a>
-                    </nav>
+                <div class='logo'>
+                    <img src='images/big-logo.jpg' alt='Dam Solutions Logo'>
+                </div>  
+                <!-- A Simple Component - Sticky Affix Navbar-->      
+                <div id='navbar'>    
+                    <a href='quagmires.html'>Quagmires</a>
+                    <a href='index.html'>Home</a>
+                    <a href='solutions.html'>Solutions</a>
                 </div>
             </header>
         </div>    
@@ -116,5 +115,24 @@
             </div>
             <p>Dam Solutions &copy; 2022 - Terri de Breyn</p>
         </footer>
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+
+            // Get the navbar
+            var navbar = document.getElementById("navbar");
+
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
+
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+            }
+        </script>
     </body>
 </html>
