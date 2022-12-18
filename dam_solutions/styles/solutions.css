@@ -67,6 +67,7 @@ body {
     text-decoration: none;
     font-size: 18px;
   }
+  
   /* Navigation pseudo class */
   #navbar :hover{
     background-color: var(--nav-hover-background-color);
