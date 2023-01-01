@@ -51,24 +51,27 @@ body {
     box-sizing: border-box;
 }
 /* Style the navbar */
-#navbar {
+nav {
     overflow: hidden;
     background-color: var(--nav-background-color);
     max-width: 1500px;
 
   }
   /* Navbar links */
-  #navbar a {
-    float: left;
-    display: block;
+  nav a {
     color: var(--nav-link-color);
-    text-align: center;
-    padding: 14px 218px;
+    padding: 14px;
     text-decoration: none;
     font-size: 18px;
   }
+  nav {
+    background-color: var(--nav-background-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+    justify-items: center;
+}
   /* Navigation pseudo class */
-  #navbar :hover{
+  nav :hover{
     background-color: var(--nav-hover-background-color);
     border-radius: 20px;
     color: var(--nav-hover-link-color);
